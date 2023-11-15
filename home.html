@@ -153,7 +153,7 @@
 
     <!--Inicio de la card informativa, proxima modificación para que aparezca con indicaciones de js -->
     <div id="hotel1" class="card-container">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_1.png" class="card-img-top" alt="card de información">
             <div class="card-body">
                 <h5 class="card-title">Hotel La Casona del Puerto</h5>
@@ -162,6 +162,17 @@
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
                     amet temporibus exercitationem dolores, a provident?</p>
+                    
+                    <audio id="audioPlayer" controls>
+                        <source id="audioSource" src="#" type="audio/mp3">
+                        Lo siento tu navegador no soporta el elemento de audio
+                    </audio>
+                    <div>
+                        <button onclick="changeLanguage('english')">Inglés</button>
+                        <button onclick="changeLanguage('maya')">Maya</button>
+                        <button onclick="changeLanguage('german')">Aleman</button>
+                    </div>
+                    <br>
                 <a href="#" class="btn btn-primary">Visitar Horario</a>
             </div>
         </div>
