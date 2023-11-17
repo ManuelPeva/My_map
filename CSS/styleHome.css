@@ -67,3 +67,6 @@
    gap: 10px;
 }
 
+.initial-hidden{
+    display: none;
+}

@@ -115,3 +115,6 @@ function changeLanguageAak(language){
 
     audioElement.load(); //Recarga el elemento de audio con la nueva fuente
 }
+
+
+//Función para que no aparezcan todas las card de información al acceder al sitio sin que el usuario lo desee
