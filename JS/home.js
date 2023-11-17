@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //Creación de la función de audio en el card
 function changeLanguage(language){
     var audioElement = document.getElementById('audioPlayer');
-    var sourceElement = ducument.getElementById('audioSource');
+    var sourceElement = document.getElementById('audioSource');
 
     switch (language) {
         case 'english':
@@ -39,8 +39,31 @@ function changeLanguage(language){
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
             sourceElement.src = './Assets/audio/english.mp3';
+}
 
-    }
+    audioElement.load(); //Recarga el elemento de audio con la nueva fuente
+}
+
+//Creación de la segundo audio
+//Creación de la función de audio en el card
+function changeLanguageLuaHotel(language){
+    var audioElement = document.getElementById('audioPlayer_lua');
+    var sourceElement = document.getElementById('audioSource_lua');
+
+    switch (language) {
+        case 'english':
+            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            break;
+        case 'maya':
+            sourceElement.src = './Assets/audio/maya.mp3';
+            break;
+        case 'german':
+            sourceElement.src = './Assets/audio/german.mp3';
+            break;
+        default:
+            //acción predeterminada en ingles si el idioma no se reconoce
+            sourceElement.src = './Assets/audio/english.mp3';
+}
 
     audioElement.load(); //Recarga el elemento de audio con la nueva fuente
 }

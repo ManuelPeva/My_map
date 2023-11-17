@@ -167,10 +167,11 @@
                         <source id="audioSource" src="#" type="audio/mp3">
                         Lo siento tu navegador no soporta el elemento de audio
                     </audio>
-                    <div>
-                        <button onclick="changeLanguage('english')">Inglés</button>
-                        <button onclick="changeLanguage('maya')">Maya</button>
-                        <button onclick="changeLanguage('german')">Aleman</button>
+                    <p></p>
+                    <div class="boton">
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('english')">Inglés</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('maya')">Frances</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('german')">Alemán</button>
                     </div>
                     <br>
                 <a href="#" class="btn btn-primary">Visitar Horario</a>
@@ -190,7 +191,21 @@
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
-                    amet temporibus exercitationem dolores, a provident?</p>
+                    amet temporibus exercitationem dolores, a provident?
+                </p>
+                <!--Incorporación del audio-->
+                <audio id="audioPlayer_lua" controls>
+                    <source id="audioSource_lua" src="#" type="audio/mp3">
+                    Lo siento tu navegador no soporta el elemento de audio
+                </audio>
+                <p></p>
+                <div class="boton">
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLuaHotel('maya')">Frances</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLuaHotel('german')">Alemán</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLuaHotel('english')">Inglés</button>
+                </div>
+                <br>
+                <!--Terminación del audio-->
                 <a href="#" class="btn btn-primary">Visitar Horario</a>
             </div>
         </div>
