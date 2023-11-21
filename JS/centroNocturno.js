@@ -1,3 +1,4 @@
+//aparición de tarjetas
 document.addEventListener("DOMContentLoaded", function () {
     var logoContainers = document.querySelectorAll('.logo-container');
 
@@ -22,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Creación de la función de audio en el card
-function changeLanguageHawai(language){
-    var audioElement = document.getElementById('audioPlayerHawai');
-    var sourceElement = document.getElementById('audioSourceHawai');
+function changeLanguageCats(language){
+    var audioElement = document.getElementById('audioPlayerCats');
+    var sourceElement = document.getElementById('audioSourceCats');
 
     switch (language) {
         case 'english':
@@ -46,9 +47,9 @@ function changeLanguageHawai(language){
 //Creación de la segundo audio
 
 //Creación de la función de audio en el card
-function changeLanguageAntigua(language){
-    var audioElement = document.getElementById('audioPlayerAntigua');
-    var sourceElement = document.getElementById('audioSourceAntigua');
+function changeLanguageKapital(language){
+    var audioElement = document.getElementById('audioPlayerKapital');
+    var sourceElement = document.getElementById('audioSourceKapital');
 
     switch (language) {
         case 'english':
@@ -68,6 +69,8 @@ function changeLanguageAntigua(language){
     audioElement.load(); //Recarga el elemento de audio con la nueva fuente
 }
 
+
+/*
 //Creación de la función de audio en el card Lua Hotel
 function changeLanguageHicas(language){
     var audioElement = document.getElementById('audioPlayerHicas');
@@ -140,28 +143,4 @@ function changeLanguageDonCanelo(language){
 }
 
     audioElement.load(); //Recarga el elemento de audio con la nueva fuente
-}
-
-
-//Flamingos
-function changeLanguageFlamingos(language){
-    var audioElement = document.getElementById('audioPlayerFlamingos');
-    var sourceElement = document.getElementById('audioSourceFlamingos');
-
-    switch (language) {
-        case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
-            break;
-        case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
-            break;
-        case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
-            break;
-        default:
-            //acción predeterminada en ingles si el idioma no se reconoce
-            sourceElement.src = './Assets/audio/english.mp3';
-}
-
-    audioElement.load(); //Recarga el elemento de audio con la nueva fuente
-}
+}*/
