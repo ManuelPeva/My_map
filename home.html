@@ -8,14 +8,13 @@
     <link rel="icon" href="./Assets/vineta_icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>My maps</title>
+    <title>My maps Hoteles</title>
 </head>
 
 <body>
 
     <!--Container = contenedor de toda la estructura de la página-->
     <div>
-
         <!--Comienzo del carrusel declarado con tres etiquetas para las imagenes de fondo. ajustar el tamaño del fondo de la pantalla de la imagen-->
         <div id="carouselEl" class="carousel slide" data-bs-ride="carousel">
 
@@ -85,19 +84,19 @@
     <div class="text-center post">
         <div class="row row-cols-4 row-cols-lg-4 g-2 g-lg-3">
             
-            <div class="col">
-                <div class="p-3"><a class="rel" href="#"> <img src="./Assets/Icon_1.png" alt="Hotel"></a></div>
+            <div class="col" id="triggerHotel1">
+                <div class="p-3"><a class="rel" href="./home.html"> <img src="./Assets/Icon_1.png" alt="Hotel"></a></div>
             </div>
 
-            <div class="col">
-                <div class="p-3"><a class="rel" href="#"> <img src="./Assets/icon_2.png" alt="Restaurantes"></a>
+            <div class="col" id="triggerRestaurante1">
+                <div class="p-3"><a class="rel" href="./restaurante.html"> <img src="./Assets/icon_2.png" alt="Restaurantes"></a>
                 </div>
             </div>
-            <div class="col">
-                <div class="p-3"><a href="#"> <img src="./Assets/icon_3.png" alt="Tapas"></a></div>
+            <div class="col" id="triggerTapas">
+                <div class="p-3"><a class="rel" href="#"> <img src="./Assets/icon_3.png" alt="Tapas"></a></div>
             </div>
             <div class="col">
-                <div class="p-3"><a href="#"><img src="./Assets/icon_4.png" alt="Centro Nocturno"></a></div>
+                <div class="p-3" id="triggerCentro"><a class="rel" href="#"><img src="./Assets/icon_4.png" alt="Centro Nocturno"></a></div>
             </div>
         </div>
     </div>
@@ -152,7 +151,7 @@
     <!--Terminación de empresas-->
 
     <!--Inicio de la card informativa, proxima modificación para que aparezca con indicaciones de js -->
-    <div id="hotel1" class="card-container">
+    <div id="hotel1" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_1.png" class="card-img-top" alt="card de información">
             <div class="card-body">
@@ -247,7 +246,7 @@
     <!--Fin del tarjeta informativa-->
 
      <!--Creación del nueva tarjeta para el siguiente icono-->
-     <div id="hotel4" class="card-container">
+     <div id="hotel4" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_2.png" class="card-img-top" alt="card de información">
             <div class="card-body">
@@ -278,7 +277,7 @@
     <!--Fin del tarjeta informativa-->
 
     <!--Creación del nueva tarjeta para el siguiente icono-->
-    <div id="hotel5" class="card-container">
+    <div id="hotel5" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_3.png" class="card-img-top" alt="card de información">
             <div class="card-body">
@@ -308,6 +307,39 @@
     </div>
     <br>
     <!--Fin del tarjeta informativa-->
+
+
+    <!--Creación del 1mera tarjeta para restaurantes-->
+    <div id="restaurante1" class="card-container initial-hidden">
+        <div class="card" style="width: 22rem;">
+            <img src="./Assets/fondo_3.png" class="card-img-top" alt="card de información">
+            <div class="card-body">
+                <h5 class="card-title">Pelicanos</h5>
+                <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
+                    officia
+                    amet temporibus exercitationem dolores, a provident?
+                </p>
+                <audio id="audioPlayerPelicanos" controls>
+                    <source id="audioSourcePelicanos" src="#" type="audio/mp3">
+                    Lo siento tu navegador no soporta el elemento de audio
+                </audio>
+                <p></p>
+                <div class="boton">
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePelicanos('maya')">Frances</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePelicanos('german')">Alemán</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePelicanos('english')">Inglés</button>
+                </div>
+                <br>
+                <!--Terminación del audio-->
+
+                <a href="#" class="btn btn-primary">Visitar Horario</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Fin del tarjeta informativa restaurantes -->
 
 </div> 
  <!--Fin del div container-->

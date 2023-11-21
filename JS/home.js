@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     logoContainers.forEach(function (container) {
         container.addEventListener('click', function () {
             var targetId = container.getAttribute('data-target');
-            //Ejecución del codigo en consola para verificar su funcionamiento
+            //Ejecución del código en consola para verificar su funcionamiento
             console.log('Target ID: ',targetId)
             var cardContainer = document.getElementById(targetId);
             //Ejecución de la escritura del elemento del ID
@@ -116,5 +116,67 @@ function changeLanguageAak(language){
     audioElement.load(); //Recarga el elemento de audio con la nueva fuente
 }
 
+//---------------------------FUNCIÓN AUDIO RESTAURANTES-------------------------
 
-//Función para que no aparezcan todas las card de información al acceder al sitio sin que el usuario lo desee
+/*
+//pelícanos
+function changeLanguagePelicanos(language){
+    var audioElement = document.getElementById('audioPlayerPelicanos');
+    var sourceElement = document.getElementById('audioSourcePelicanos');
+
+    switch (language) {
+        case 'english':
+            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            break;
+        case 'maya':
+            sourceElement.src = './Assets/audio/maya.mp3';
+            break;
+        case 'german':
+            sourceElement.src = './Assets/audio/german.mp3';
+            break;
+        default:
+            //acción predeterminada en ingles si el idioma no se reconoce
+            sourceElement.src = './Assets/audio/english.mp3';
+}
+
+    audioElement.load(); //Recarga el elemento de audio con la nueva fuente
+}
+*/
+// función para que al presionar categoria salga icono de empresa
+/*
+document.addEventListener('DOMContentLoaded', function (){
+    var restaurante1 = document.getElementById('restaurante1');
+    var triggerHotel1 = document.getElementById('triggerRestaurante1');
+    //variable para ocultar los hoteles
+    var cuadre = document.querySelector('.cuadre');
+
+
+    triggerRestaurante1.addEventListener('click', function (event){
+        event.preventDefault(); //Evita que el enlace siga el href
+
+        //Oculta todos los elementos dentro del contenedor hoteles llamado cuadre
+        hideElementsInCuadre();
+
+        //llama la función para mostrar/ocultar el elemento restaurante1
+        toggleElementVisibility(restaurante1);
+    });
+    function hideElementsInCuadre(){
+        var logoContainers = cuadre.querySelectorAll('.logo-container');
+        logoContainers.forEach(function (container){
+            var targetId = container.getAttribute('data-target');
+            var targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.style.display = "none";
+            }
+        })
+    }
+});
+
+//función para mostrar/ocultar elementos
+function toggleElementVisibility(element){
+    if (element.style.display == "none"){
+        element.style.display = "block"; //o la visualización deseado
+    }else{
+        element.style.display = "none"; //o la visualización deseado
+    }
+}*/
