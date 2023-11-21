@@ -8,7 +8,7 @@
     <link rel="icon" href="./Assets/vineta_icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>My maps Hoteles</title>
+    <title>My maps Tapas</title>
 </head>
 
 <body>
@@ -106,71 +106,79 @@
     <div class="cuadre">
         <div class="contenedor">
 
-            <div class="logo-container" data-target="hotel1">
+            <div class="logo-container" data-target="tapa1">
                 <span class="logo">
-                    <img class="sombra" src="./Assets/Hoteles/La casona del puerto Hotel.jpeg"
-                        alt="Hotel la casona del pueblo">
+                    <img class="sombra" src="./Assets/copa/Hawai Bar Familiar.jpeg"
+                        alt="Hawai">
                 </span>
             </div>
             <!--Fin de la etiqueta div con clase logo-container-->
 
             <!--Segundo contenedor-->
-            <div class="logo-container" data-target="hotel2">
+            <div class="logo-container" data-target="tapa2">
                 <span class="logo">
-                    <img class="sombra" src="./Assets/Hoteles/Hotel don abel.jpeg" alt="Hotel don abel">
+                    <img class="sombra" src="./Assets/restaurante/Antigua restaurant bar.jpeg" alt="Antigua">
                 </span>
             </div>
             <!--Fin del segundo contenedor-->
 
             <!--Tercero contenedor-->
-            <div class="logo-container" data-target="hotel3">
+            <div class="logo-container" data-target="tapa3">
                 <span class="logo">
-                    <img class="sombra" src="./Assets/Hoteles/Lua Hotel.jpeg" alt="Hotel Lua Hotel">
+                    <img class="sombra" src="./Assets/restaurante/Cayo Hicas restaurante.jpeg" alt="Cayo Hicas">
                 </span>
             </div>
             <!--Fin del tercero contenedor-->
 
             <!--Cuarto contenedor-->
-            <div class="logo-container" data-target="hotel4">
+            <div class="logo-container" data-target="tapa4">
                 <span class="logo">
-                    <img class="sombra" src="./Assets/Hoteles/Hotel Perla del mar.jpeg" alt="Hotel Perla del mar">
+                    <img class="sombra" src="./Assets/copa/los_cocos.png" alt="Los cocos" style="height: 128.01px;">
                 </span>
             </div>
             <!--Fin del cuarto contenedor-->
 
             <!--Quinto contenedor-->
-            <div class="logo-container" data-target="hotel5">
+            <div class="logo-container" data-target="tapa5">
                 <span class="logo">
-                    <img class="sombra" src="./Assets/Hoteles/Hotel AakTunKay.jpeg" alt="Hotel AakTunkay">
+                    <img class="sombra" src="./Assets/restaurante/Don canelo restaurant bar familiar.jpeg" alt="Flamingos">
                 </span>
             </div>
             <!--Fin del quinto contenedor-->
+
+            <!--Sexto contenedor-->
+            <div class="logo-container" data-target="tapa6">
+                <span class="logo">
+                    <img src="./Assets/copa/famingos.svg " alt="Don Canelo" style="height: 128.01px;">
+                </span>
+            </div>
+            <!--Fin del Sexto contenedor-->
 
         </div>
     </div>
     <!--Terminación de empresas-->
 
     <!--Inicio de la card informativa, proxima modificación para que aparezca con indicaciones de js -->
-    <div id="hotel1" class="card-container initial-hidden">
+    <div id="tapa1" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_1.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">Hotel La Casona del Puerto</h5>
+                <h5 class="card-title">Hawai</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
                     amet temporibus exercitationem dolores, a provident?</p>
                     
-                    <audio id="audioPlayer" controls>
-                        <source id="audioSource" src="#" type="audio/mp3">
+                    <audio id="audioPlayerHawai" controls>
+                        <source id="audioSourceHawai" src="#" type="audio/mp3">
                         Lo siento tu navegador no soporta el elemento de audio
                     </audio>
                     <p></p>
                     <div class="boton">
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('english')">Inglés</button>
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('maya')">Frances</button>
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguage('german')">Alemán</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHawai('english')">Inglés</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHawai('maya')">Frances</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHawai('german')">Alemán</button>
                     </div>
                     <br>
                 <a href="#" class="btn btn-primary">Visitar Horario</a>
@@ -181,11 +189,11 @@
     <!--Fin de la tarjeta informativa la -->
 
     <!--Creación del nueva tarjeta para el siguiente icono-->
-    <div id="hotel2" class="card-container initial-hidden">
+    <div id="tapa2" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_3.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">Hotel DON ABEL</h5>
+                <h5 class="card-title">La Antigua</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
@@ -193,8 +201,8 @@
                     amet temporibus exercitationem dolores, a provident?
                 </p>
                 <!--Incorporación del audio-->
-                <audio id="audioPlayer_Abel" controls>
-                    <source id="audioSource_Abel" src="#" type="audio/mp3">
+                <audio id="audioPlayer_Antigua" controls>
+                    <source id="audioSource_Antigua" src="#" type="audio/mp3">
                     Lo siento tu navegador no soporta el elemento de audio
                 </audio>
                 <p></p>
@@ -213,27 +221,27 @@
     <!--Fin del tarjeta informativa-->
 
     <!--Creación del nueva tarjeta para el siguiente icono-->
-    <div id="hotel3" class="card-container initial-hidden">
+    <div id="tapa3" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_1.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">LuaHotel</h5>
+                <h5 class="card-title">Cayo Hicas</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
                     amet temporibus exercitationem dolores, a provident
                 </p>
-                <audio id="audioPlayer_lua" controls>
-                    <source id="audioSource_lua" src="#" type="audio/mp3">
+                <audio id="audioPlayerHicas" controls>
+                    <source id="audioSourceHicas" src="#" type="audio/mp3">
                     Lo siento tu navegador no soporta el elemento de audio
                 </audio>
                 <p></p>
 
                 <div class="boton">
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLua('maya')">Frances</button>
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLua('german')">Alemán</button>
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageLua('english')">Inglés</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHicas('maya')">Frances</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHicas('german')">Alemán</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageHicas('english')">Inglés</button>
                 </div>
                 <br>
                 <!--Terminación del audio-->
@@ -246,25 +254,25 @@
     <!--Fin del tarjeta informativa-->
 
      <!--Creación del nueva tarjeta para el siguiente icono-->
-     <div id="hotel4" class="card-container initial-hidden">
+     <div id="tapa4" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_2.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">PERLA DEL MAR</h5>
+                <h5 class="card-title">Los cocos</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
                     amet temporibus exercitationem dolores, a provident?</p>
-                    <audio id="audioPlayer_Perla" controls>
-                        <source id="audioSource_Perla" src="#" type="audio/mp3">
+                    <audio id="audioPlayerCocos" controls>
+                        <source id="audioSourceCocos" src="#" type="audio/mp3">
                         Lo siento tu navegador no soporta el elemento de audio
                     </audio>
                     <p></p>
                     <div class="boton">
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePerla('maya')">Frances</button>
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePerla('german')">Alemán</button>
-                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguagePerla('english')">Inglés</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageCocos('maya')">Frances</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageCocos('german')">Alemán</button>
+                        <button class="btn btn-primary boton-card_btn" onclick="changeLanguageCocos('english')">Inglés</button>
                     </div>
                     <br>
                     <!--Terminación del audio-->
@@ -277,26 +285,26 @@
     <!--Fin del tarjeta informativa-->
 
     <!--Creación del nueva tarjeta para el siguiente icono-->
-    <div id="hotel5" class="card-container initial-hidden">
+    <div id="tapa5" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_3.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">AakTunkay</h5>
+                <h5 class="card-title">Don Canelo</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
                     officia
                     amet temporibus exercitationem dolores, a provident?
                 </p>
-                <audio id="audioPlayerAak" controls>
-                    <source id="audioSourceAak" src="#" type="audio/mp3">
+                <audio id="audioPlayerDonCanelo" controls>
+                    <source id="audioSourceDonCanelo" src="#" type="audio/mp3">
                     Lo siento tu navegador no soporta el elemento de audio
                 </audio>
                 <p></p>
                 <div class="boton">
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageAak('maya')">Frances</button>
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageAak('german')">Alemán</button>
-                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageAak('english')">Inglés</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageDonCanelo('maya')">Frances</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageDonCanelo('german')">Alemán</button>
+                    <button class="btn btn-primary boton-card_btn" onclick="changeLanguageDonCanelo('english')">Inglés</button>
                 </div>
                 <br>
                 <!--Terminación del audio-->
@@ -310,11 +318,11 @@
 
 
     <!--Creación del 1mera tarjeta para restaurantes-->
-    <div id="restaurante1" class="card-container initial-hidden">
+    <div id="tapa6" class="card-container initial-hidden">
         <div class="card" style="width: 22rem;">
             <img src="./Assets/fondo_3.png" class="card-img-top" alt="card de información">
             <div class="card-body">
-                <h5 class="card-title">Pelicanos</h5>
+                <h5 class="card-title">Flamingos</h5>
                 <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Magni eius asperiores soluta, nesciunt id laborum quam sint deserunt neque eaque iste fugit et
@@ -346,7 +354,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="./JS/home.js"></script>
+
+        <script src="./JS/tapas.js"></script>
 </body>
 
 </html>
