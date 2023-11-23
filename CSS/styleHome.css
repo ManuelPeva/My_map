@@ -215,7 +215,10 @@ ul {
 }
 .copyright-area{
   background: #882642;
-  padding: 25px 0;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .copyright-text p {
   margin: 0;
