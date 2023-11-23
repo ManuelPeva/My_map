@@ -1,0 +1,26 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background: url("https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQIPRNUb0ihlESVH00TYiOEoNBx1x40EPYJSNSf3awl5VCMiFz44vYefMudS4n8qwW2bAEAuUabwKxubq_QMAfr9ogWy4LvZxLCkaXBkeA") no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
