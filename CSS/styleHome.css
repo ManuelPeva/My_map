@@ -3,16 +3,17 @@
   overflow-y: scroll;
 }
 
+  
 .fondos {
     height: auto;
     width: 100%;
-
     object-fit: cover;
     left: 0;
     top: 0;
 }
 
 .post {
+   
     background-color: #F7DBA9;
     justify-content: center;
     align-items: center;
