@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+#regresarBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index:1;
+}
+
 body{
     margin: 0;
     display: flex;

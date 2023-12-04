@@ -180,3 +180,21 @@ function toggleElementVisibility(element){
         element.style.display = "none"; //o la visualización deseado
     }
 }*/
+
+//Función para ir a tarjeta rápidamente
+//función para que espere la carga completa de la card
+document.addEventListener("DOMContentLoaded", function () {
+    var currentCard = 1; // Indica la tarjeta actual
+
+    // Agrega un controlador de eventos al contenedor de la tarjeta actual
+    document.getElementById("hotel1").addEventListener("click", function () {
+        // Oculta la tarjeta actual
+        document.getElementById("hotel" + currentCard).classList.add("initial-hidden");
+
+        // Incrementa al siguiente número de tarjeta
+        currentCard++;
+
+        // Muestra la siguiente tarjeta (puedes ajustar esto según tu estructura HTML)
+        document.getElementById("hotel" + currentCard).classList.remove("initial-hidden");
+    });
+});

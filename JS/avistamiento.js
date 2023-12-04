@@ -28,7 +28,7 @@ function changeLanguageBaluarte(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/english.mp3';
+            sourceElement.src = '../Assets/audio/ingles/SanAntonio.mp3';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
@@ -52,7 +52,7 @@ function changeLanguageLetras(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            sourceElement.src = '../Assets/audio/ingles/Letras_deChampoton en ingles.mp3';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
@@ -75,7 +75,7 @@ function changeLanguageChampoton(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            sourceElement.src = '../Assets/audio/ingles/museo.mp3';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
@@ -126,7 +126,7 @@ function changeLanguageCostero(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            sourceElement.src = '../Assets/audio/ingles/ParqueCostero.mp3';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
