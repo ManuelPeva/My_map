@@ -21,6 +21,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//Reproducción de video automatico
+document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('miVideo');
+    video.play();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var video = document.getElementById('miVideo');
+    video.play();
+});
+
 //Creación de la función de audio en el card
 function changeLanguage(language){
     var audioElement = document.getElementById('audioPlayer');
