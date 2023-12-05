@@ -42,7 +42,7 @@ function changeLanguage(language){
             sourceElement.src = './Assets/audio/english.mp3';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/hotel_español/lacasonadelpueblo.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
@@ -69,7 +69,7 @@ function changeLanguageAbel(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/hotel_español/don_abel_es.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -92,7 +92,7 @@ function changeLanguageLua(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/hotel_español/lua_hotel_es.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
