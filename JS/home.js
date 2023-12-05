@@ -105,6 +105,32 @@ function changeLanguageLua(language){
 // ---------------
 
 //Creación de la función de audio en el card Lua Hotel
+function changeLanguagePerla(language){
+    var audioElement = document.getElementById('audioPlayer_Perla');
+    var sourceElement = document.getElementById('audioSource_Perla');
+
+    switch (language) {
+        case 'english':
+            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            break;
+        case 'maya':
+            sourceElement.src = './Assets/audio/maya.mp3';
+            break;
+        case 'german':
+            sourceElement.src = '../Assets/audio/hotel_español/perla_hotel_es.mp3';
+            break;
+        default:
+            //acción predeterminada en ingles si el idioma no se reconoce
+            sourceElement.src = './Assets/audio/english.mp3';
+}
+
+    audioElement.load(); //Recarga el elemento de audio con la nueva fuente
+}
+
+
+// ---------------
+
+//Creación de la función de audio en el card Lua Hotel
 function changeLanguageAak(language){
     var audioElement = document.getElementById('audioPlayerAak');
     var sourceElement = document.getElementById('audioSourceAak');
@@ -117,7 +143,7 @@ function changeLanguageAak(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/hotel_español/aaktun_hotel_es.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
