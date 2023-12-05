@@ -31,7 +31,7 @@ function changeLanguageBaluarte(language){
             sourceElement.src = '../Assets/audio/ingles/SanAntonio.mp3';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/español_avis/Baluarte_Español.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
@@ -58,7 +58,7 @@ function changeLanguageLetras(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/español_avis/letras.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -81,7 +81,7 @@ function changeLanguageChampoton(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/español_avis/museo.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
