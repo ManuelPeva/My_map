@@ -103,7 +103,7 @@ function changeLanguagePalacio(language){
             sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/español_avis/palacio_municipal.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
