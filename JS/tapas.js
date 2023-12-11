@@ -31,7 +31,7 @@ function changeLanguageHawai(language){
             sourceElement.src = './Assets/audio/english.mp3';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/tapas_español/es-hawai.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
@@ -129,7 +129,7 @@ function changeLanguageDonCanelo(language){
             sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/tapas_español/es-doncanelo.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';

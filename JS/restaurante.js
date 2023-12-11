@@ -58,7 +58,7 @@ function changeLanguageBrisas(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-brisas.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -106,7 +106,7 @@ function changeLanguageBajio(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es_bajio.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -127,7 +127,7 @@ function changeLanguageTimon(language){
             sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-timon.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
@@ -147,7 +147,7 @@ function changeLanguageFish(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-tacofish.mp3';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
@@ -172,13 +172,13 @@ function changeLanguagePalapa(language){
 
     switch (language) {
         case 'english':
-            sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
+            sourceElement.src = '#';
             break;
         case 'maya':
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-lapalapa.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -202,7 +202,7 @@ function changeLanguageMaya(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-pulpomaya .mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -227,7 +227,7 @@ function changeLanguageCintya(language){
             sourceElement.src = './Assets/audio/maya.mp3';
             break;
         case 'german':
-            sourceElement.src = './Assets/audio/german.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-cinthyarestaurante.mp3';
             break;
         default:
             //acción predeterminada en ingles si el idioma no se reconoce
@@ -247,7 +247,7 @@ function changeLanguageChakan(language){
             sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/restaurantes_español/es-chakas.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
@@ -294,7 +294,7 @@ function changeLanguageCanelo(language){
             sourceElement.src = './Assets/audio/luaHotel_spanish.wav';
             break;
         case 'maya':
-            sourceElement.src = './Assets/audio/maya.mp3';
+            sourceElement.src = '../Assets/audio/tapas_español/es-doncanelo.mp3';
             break;
         case 'german':
             sourceElement.src = './Assets/audio/german.mp3';
